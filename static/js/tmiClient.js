@@ -17,12 +17,12 @@ function setupTmiClient(oauth) {
     });
 
     client.on("message", async (channel, tags, message, self) => {
-
-        if (self || channel !== '#' + channel)
+     
+        if (self || channel !== channel)
             return;
         if (!message.startsWith(prefix))
             return;
-
+           
         const args = message.slice(prefix.length).split(' ');
         const botCommands = ['balloon', 'drop'];
         const command = args.shift().toLowerCase();
