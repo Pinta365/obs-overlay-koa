@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+
+{% block main %}
+
+	<script src="/js/drop.js"></script>
+	<script src="/js/tmiClient.js"></script>
+	<script>     
+		setupTmiClient("{{ oauthToken }}");
+    </script>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{
+  "name": "obs-overlay-koa",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "koa": "^2.13.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0",
+    "nunjucks": "^3.2.3"
+  }
+}
